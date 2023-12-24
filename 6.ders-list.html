@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+</head>
+<body>
+
+    <!--
+        list : bir dizi ile ilgili ögeyi listelerde gruplanmasına olanak tanır. 
+    -->
+
+    <h2>İçeçekler</h2>
+    <ul> <!--unordered list : sırasız liste-->
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>Süt</li>
+    </ul>
+
+
+    <ol>   <!--ordered list sıralı liste-->
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>Süt</li>
+    </ol>
+  <br>
+
+     <h2>Açıklama Listesi</h2>
+     <dl><!--Bir Açıklama Listesi Tanımlar.-->
+        <dt>Kahve</dt><!--Açıklama Listesindeki Terimi Tanımlar.-->
+        <dd>siyah sıcak içecek</dd>
+          <dt>Süt</dt>
+         <dd>Beyaz Soguk içeçek</dd><!--bir açıklama  listesinde terimi açıklar.-->
+     </dl>
+ <br>
+
+ <ul style="list-style-type:none;">
+    <li>Kahve</li>
+     <li>Çay</li>
+     <li>Süt</li>
+</ul>
+
+<!--
+
+   list-style-type  stil kısımları 
+disc	madde işaretlerini ayarlar. 
+circle	bir daireye alıyor.
+square	kare yapar.
+none  belirsiz hiç bir şey yapmaz boş vbir değer verir.
+-->
+
+
+<br>
+
+
+<ul>
+
+<li>Kahve</li>
+ <li>Çay
+ <ul>
+    <li>Siyah Çay</li>
+    <li>Yeşil Çay</li>
+ </ul>
+</li>
+<li>Süt</li>
+</ul>
+
+<br>
+
+<ol type="I">
+     <li>Kahve</li>
+     <li>Çay</li>
+     <li>Süt</li>
+</ol>
+
+
+<!--
+    
+Type	Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+-->
+
+
+<ol start="50">
+    <li>Kahve</li>
+    <li>Çay</li>
+    <li>Süt</li>
+</ol>
+
+
+</body>
+</html>
